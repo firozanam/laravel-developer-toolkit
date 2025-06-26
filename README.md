@@ -82,40 +82,7 @@ Central hub providing access to all tools with:
 - Creator information and support links
 - Donation integration (Buy Me Coffee, PayPal, Google Pay, Binance)
 
-### 2. **🗄️ Database Migration Manager** (`laravel_db_migrate.php`)
-Comprehensive database migration management:
-- **Run Migrations**: Execute pending migrations with real-time progress
-- **Rollback**: Safely rollback migrations with confirmation prompts
-- **Refresh**: Drop all tables and re-run migrations
-- **Fresh**: Fresh migration with optional seeding
-- **Status Tracking**: View migration status and history
-- **Safety Features**: Confirmation codes for destructive operations
-
-### 3. **💾 Database Restore Tool** (`laravel_db_restore.php`)
-Advanced database restoration capabilities:
-- **SQL File Import**: Upload and import large SQL files
-- **Table Management**: Drop existing tables before import
-- **Memory Optimization**: Handles large imports with increased limits
-- **Progress Tracking**: Real-time import progress monitoring
-- **Error Handling**: Comprehensive error reporting and recovery
-
-### 4. **📦 NPM Build Manager** (`laravel_npm_build.php`)
-Complete Node.js and NPM management:
-- **Environment Detection**: Automatic Node.js and NPM version detection
-- **Dependency Installation**: npm install with legacy-peer-deps support
-- **Build Processes**: Production and development builds
-- **Cache Management**: Clear NPM and build caches
-- **Real-time Output**: Live command execution feedback
-
-### 5. **🔐 Permissions Fixer** (`laravel_permissions_fixer.php`)
-Automated Laravel permission management:
-- **Directory Creation**: Ensure all required directories exist
-- **Permission Setting**: Set proper 755/644 permissions
-- **Storage Security**: Create .htaccess files for storage protection
-- **Comprehensive Scanning**: Process entire Laravel application
-- **Progress Tracking**: Real-time permission fixing progress
-
-### 6. **🚨 Production Error Fixer** (`laravel_prod_error-fixer.php`)
+### 2. **🚨 Production Error Fixer** (`laravel_prod_error-fixer.php`)
 Automated production issue resolution:
 - **Hot File Removal**: Remove development hot files
 - **Directory Setup**: Ensure all required directories exist
@@ -124,21 +91,54 @@ Automated production issue resolution:
 - **Storage Link Verification**: Validate storage symlinks
 - **Detailed Diagnostics**: Comprehensive error reporting
 
-### 7. **⚡ Artisan Command Runner** (`laravel_run_artisan.php`)
-Safe Laravel Artisan command execution:
-- **Predefined Commands**: Curated list of safe commands
-- **Security Restrictions**: Only allows whitelisted commands
-- **Real-time Output**: Live command execution feedback
-- **Common Commands**: Quick access to frequently used commands
-- **Server Information**: Display PHP and server details
-
-### 8. **🔗 Storage Symlink Creator** (`laravel_symlink_creator.php`)
+### 3. **🔗 Storage Symlink Creator** (`laravel_symlink_creator.php`)
 Advanced storage symlink management:
 - **Automatic Creation**: Create storage symlinks with one click
 - **Conflict Resolution**: Handle existing files/directories
 - **Test Image Generation**: Create and test image accessibility
 - **Access Rules**: Generate proper .htaccess files
 - **Diagnostics**: Comprehensive symlink testing and validation
+
+### 4. **🔐 Permissions Fixer** (`laravel_permissions_fixer.php`)
+Automated Laravel permission management:
+- **Directory Creation**: Ensure all required directories exist
+- **Permission Setting**: Set proper 755/644 permissions
+- **Storage Security**: Create .htaccess files for storage protection
+- **Comprehensive Scanning**: Process entire Laravel application
+- **Progress Tracking**: Real-time permission fixing progress
+
+### 5. **🗄️ Database Migration Manager** (`laravel_db_migrate.php`)
+Comprehensive database migration management:
+- **Run Migrations**: Execute pending migrations with real-time progress
+- **Rollback**: Safely rollback migrations with confirmation prompts
+- **Refresh**: Drop all tables and re-run migrations
+- **Fresh**: Fresh migration with optional seeding
+- **Status Tracking**: View migration status and history
+- **Safety Features**: Confirmation codes for destructive operations
+
+### 6. **💾 Database Restore Tool** (`laravel_db_restore.php`)
+Advanced database restoration capabilities:
+- **SQL File Import**: Upload and import large SQL files
+- **Table Management**: Drop existing tables before import
+- **Memory Optimization**: Handles large imports with increased limits
+- **Progress Tracking**: Real-time import progress monitoring
+- **Error Handling**: Comprehensive error reporting and recovery
+
+### 7. **📦 NPM Build Manager** (`laravel_npm_build.php`)
+Complete Node.js and NPM management:
+- **Environment Detection**: Automatic Node.js and NPM version detection
+- **Dependency Installation**: npm install with legacy-peer-deps support
+- **Build Processes**: Production and development builds
+- **Cache Management**: Clear NPM and build caches
+- **Real-time Output**: Live command execution feedback
+
+### 8. **⚡ Artisan Command Runner** (`laravel_run_artisan.php`)
+Safe Laravel Artisan command execution:
+- **Predefined Commands**: Curated list of safe commands
+- **Security Restrictions**: Only allows whitelisted commands
+- **Real-time Output**: Live command execution feedback
+- **Common Commands**: Quick access to frequently used commands
+- **Server Information**: Display PHP and server details
 
 ---
 
